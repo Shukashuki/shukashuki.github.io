@@ -8,3 +8,6 @@
 .research-experience{margin:40px 0 48px;border-top:1px solid #e5e5e5;padding-top:26px}.research-experience article{margin:25px 0}.experience-heading{display:flex;align-items:baseline;justify-content:space-between;gap:20px}.experience-heading h3{font-size:18px;margin-bottom:8px}.research-experience article>p{font-size:14px;line-height:1.75;color:#444}.research-experience .section-note{font-size:12px;color:#666}@media(max-width:540px){.experience-heading{display:block}.experience-heading .project-meta{margin-top:0}.research-experience{margin:32px 0}.research-experience article>p{font-size:14px}}
 
 .intro{grid-template-columns:1fr}.bio{max-width:850px}
+
+.intro.has-profile-photo{display:grid;grid-template-columns:minmax(0,1fr) clamp(116px,19vw,180px);gap:clamp(18px,5vw,42px);align-items:start}.profile-photo{display:block;width:100%;height:auto;aspect-ratio:1;object-fit:cover;border-radius:8px;margin-top:12px}.research-item .thumbnail img[src="hockey-stop.webp"]{height:auto;min-height:0;max-height:none}
+@media(max-width:540px){.intro.has-profile-photo{grid-template-columns:1fr;gap:15px}.profile-photo{grid-row:1;width:104px;margin-top:0}}
